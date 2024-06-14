@@ -1,2 +1,5 @@
 pandas
 causalnex
+matplotlib
+holoviews bokeh
+datashader
