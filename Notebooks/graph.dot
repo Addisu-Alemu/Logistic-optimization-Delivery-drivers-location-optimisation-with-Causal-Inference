@@ -1,0 +1,17 @@
+strict digraph  {
+driver_action;
+weekday;
+distance;
+speed;
+driver_action -> weekday  [origin=learned, weight="0.24036466864576908"];
+driver_action -> distance  [origin=learned, weight="2.3505707501894126"];
+driver_action -> speed  [origin=learned, weight="10.557501267332903"];
+weekday -> driver_action  [origin=learned, weight="-4.070995037527617e-06"];
+weekday -> speed  [origin=learned, weight="-2.082897517612896"];
+distance -> driver_action  [origin=learned, weight="1.1981102150641274e-07"];
+distance -> weekday  [origin=learned, weight="1.134681814628792e-06"];
+distance -> speed  [origin=learned, weight="2.9511272395951615"];
+speed -> driver_action  [origin=learned, weight="6.612949335765386e-08"];
+speed -> weekday  [origin=learned, weight="4.625815227426583e-07"];
+speed -> distance  [origin=learned, weight="2.8209330443909147e-05"];
+}

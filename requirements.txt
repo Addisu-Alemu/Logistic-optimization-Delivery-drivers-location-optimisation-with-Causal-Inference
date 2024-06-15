@@ -1,5 +1,8 @@
 pandas
 causalnex
 matplotlib
-holoviews bokeh
+
 datashader
+pydot
+geopy
+haversine
