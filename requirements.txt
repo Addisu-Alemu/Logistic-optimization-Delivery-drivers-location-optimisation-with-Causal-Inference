@@ -1,8 +1,0 @@
-pandas
-causalnex
-matplotlib
-
-datashader
-pydot
-geopy
-haversine
