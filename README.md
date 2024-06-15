@@ -1,6 +1,4 @@
 # Logistic-optimization-with-Causal-Inference
->>>>>>> 0581c30c1d0d36ae66a9a10782e99e63b96ba632
-<<<<<<< HEAD
 
 # Business Need
 
@@ -23,8 +21,9 @@ Identifying Outliers: Look for unusual data points that might be mistakes or rep
 
 ## Using CausalNex: Building and Analyzing a Causal Model
 
-### Prepare Data for Structure Learning:
-### Apply NOTEARS Algorithm
+### Prepare Data for Structure Learning: 
+    Make sure all the data is in a format that the algorithms can understand (usually numeric).
+### Apply NOTEARS Algorithm:
+    This algorithm helps discover the causal relationships hidden within the data. 
 ### Visualize the Graph:
-=======
->>>>>>> 7ea5dccb8485aa8370a2306535dce688dc98565c
+    Create a diagram that shows how the variables are connected. This makes it easier to understand the causal relationships.
